@@ -27,6 +27,8 @@ sudo aptss dist-upgrade
 
 #sudo rpi-update -y
 #do-release-upgrade
+
+#sudo apt install byobu
 sudo purge-old-kernels
 
 sudo journalctl --vacuum-size=10M
