@@ -46,6 +46,7 @@ LANG=C snap list --all | awk '/disabled/{print $1, $3}' |
         sudo snap remove "$snapname" --revision="$revision"
     done
 
+sudo flatpak repair
 sudo flatpak uninstall --unused
 sudo flatpak update
 
