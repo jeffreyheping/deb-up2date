@@ -13,7 +13,7 @@ sudo apt-get autoclean -y
 #sudo dpkg -l | grep "^rc"| awk '{print $2}' | xargs sudo apt-get -y purge
 #sudo deborphan | xargs sudo apt-get -y purge
 sudo apt purge $(dpkg -l | awk '/^rc/ { print $2 }')
-sudo apt full-upgrade -y
+#sudo apt full-upgrade -y
 sudo updatedb
 
 
