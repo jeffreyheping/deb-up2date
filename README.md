@@ -9,4 +9,5 @@ chmod 755 ~/deb-up2date/up2date.sh
 
 
 #容易误删的包，装回来
-sudo apt install cinnamon
+sudo apt install mint-meta-cinnamon
+sudo apt install gxde-desktop
